@@ -1,5 +1,5 @@
 # Create and Delete Lab
-
+ 
 ## Objectives
 
 * Implement a Yelp-like application where users can create and delete both
@@ -21,7 +21,7 @@ Start off by working on the components for displaying restaurants. First,
 you'll need a __RestaurantInput__ component that allows a user to create new 
 restaurants. Your form should have two inputs: a text input to enter the name
 of the restaraunt, and an input with type equal `submit`. 
-
+ 
 Next, you will build out the __RestaurantsContainer__ component that will 
 connect to Redux and pass the appropriate props down to its children. You will 
 then want to create a __Restaurants__ component that renders a list of 
